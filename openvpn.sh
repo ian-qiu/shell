@@ -20,6 +20,6 @@ case "$1" in
 		start
 	;;
 	*)
-		echo "./openvpn.sh (start|stop|restart)"
+		echo "./openvpn.sh {start|stop|restart}"
 	;;
 esac
