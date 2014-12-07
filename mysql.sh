@@ -43,3 +43,4 @@ DELIMITER ;
 
 insert into employee values(1,'张婕',3000);
 insert into employee values(2,'张琦',5000);
+insert into employee values(3,'邱龙超',3000);
