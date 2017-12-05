@@ -6,6 +6,9 @@ curl -s 'http://members.3322.org/dyndns/getip'
 # -d or --data Sends the specified data in a POST request to the HTTP server
 curl 'http://ip.taobao.com/service/getIpInfo.php' --data 'ip=211.152.98.163'
 
+# -d or --data in a local file
+curl 'http://ip.taobao.com/service/getIpInfo.php' --data '@test.json'
+
 # -G or --get Sends the specified data in a POST request to the HTTP server
 curl --get 'http://ip.taobao.com/service/getIpInfo.php' --data 'ip=211.152.98.163'
 
