@@ -8,3 +8,8 @@ while [[ $start -lt $end ]] ; do
     date -d @${start} +'%F %R:%S'
     start=$(($start+600))
 done
+
+# get timestamp 30 days ago
+date -d '-30 days' +"%s"
+# get date 30 days ago
+date -d '-30 days' +"%Y-%m-%d"
