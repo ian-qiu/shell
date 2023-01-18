@@ -1,8 +1,8 @@
-```Shell
+```Bash
 ffmpeg -i "concat:1-1.mp4|1-2.mp4|1-3.mp4" -c copy -bsf:a aac_adtstoasc -movflags +faststart 01.mp4
 ```
 
-```Shell
+```Bash
 ffmpeg -f concat -safe 0 -i merge.txt -c copy 1.mp4
 ```
 
