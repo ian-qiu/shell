@@ -21,3 +21,5 @@ curl -i 'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&ip=211.152
 # -H or --header Extra header to use when getting a web page
 
 # --rerty <num>
+
+curl --get 'http://api.trie.top:10086/test/yiyi/showip' --resolve "api.trie.top:10086:127.0.0.1"
